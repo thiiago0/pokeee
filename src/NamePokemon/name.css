@@ -1,0 +1,74 @@
+body {
+  background-color: rgba(49, 49, 49, 0.943);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: rgb(227, 234, 234);
+  /* width: calc(33.33% - 10px); */
+  margin-bottom: 20px;
+  width: 250px;
+  height: 150px;
+  border: 1px solid rgb(254, 253, 253);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.card:hover {
+  transform: translateY(-15px);
+  transition: transform 0.3s ease-in-out;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  transition: transform 0.3s ease-in-out;
+}
+
+.titulo {
+  display: flex;
+
+  align-items: center;
+  font-family: "Pokemon Solid", sans-serif;
+  color: rgba(248, 248, 8, 0.703);
+}
+
+.nombre {
+  background-color: rgb(227, 234, 234);
+  font-family: "Press Start 2P", cursive;
+}
+
+.btn-pokemon {
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  transition: 0.3s ease;
+  font-family: "Source Code Pro", monospace;
+}
+
+.btn-pokemon:hover {
+  transform: scale(1.09);
+}
+
+.moves {
+  color: white;
+  font-family: "Press Start 2P", cursive;
+}
+
+.material-symbols-outlined {
+  font-size: 50px;
+}
